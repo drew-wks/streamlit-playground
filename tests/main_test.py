@@ -14,7 +14,7 @@ def test_main_app():
     at.run()
     
     # Simulate user input in the text input widget
-    at.text_input[0].input("Test input").run()
+    at.text_input[0].input("Test input from the test script").run()
 
     # Verify the output displayed by the app after the input is processed
     assert "You entered: Test input" in at.markdown[1].value  # Checking second markdown output
