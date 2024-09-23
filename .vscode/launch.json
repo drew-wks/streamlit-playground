@@ -13,9 +13,10 @@
             "name": "Python: Run Tests",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/tests",  // Points to your tests folder
+            "module": "pytest",  
+            "args": [],
             "console": "integratedTerminal",
-            "args": ["-m", "pytest"]
+            "justMyCode": true
         }
     ]
 }
