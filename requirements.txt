@@ -1,0 +1,5 @@
+streamlit
+logging
+pytest
+
+# TODO figure out which package is using Pydantic and update it. class-based `config` is deperecated. Also, json_encoders
