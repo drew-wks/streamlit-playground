@@ -1,10 +1,11 @@
 import streamlit as st
 
+hi = st.secrets["QDRANT_PORT"]
+
 st.title("Hello, Streamlit!")
 st.write("This is a test app.")
-st.write("This is a test secret.")
-hi = st.secrets["QDRANT_PORT"]
-st.write(hi)
+st.write(f"This is a test secret: {hi}")
+
 st.write("This is a test app with an input field.")
 
 # Input field for user input
